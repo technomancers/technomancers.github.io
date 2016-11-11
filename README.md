@@ -1,2 +1,2 @@
-# technomancers.github.io
+# [technomancers.github.io](https://technomancers.github.io)
 Team Homepage

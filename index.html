@@ -14,10 +14,110 @@
     <![endif]-->
 
     <title>Technomancers by technomancers</title>
+    
+    <!--style for navigation classes-->
+    
+    <style>
+    .nav-main{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dodgerblue;
+    }
+    .parent{
+      display: inline-block;
+      text-align: center;
+      color: teal;
+      opacity: 1.0;
+    }
+    .parent a{
+      color: white;
+      display: inline-block;
+      text-align: center;
+      align-content: center;
+      padding-left: 10px;
+    }
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      min-width: 160px;
+      background-color: dodgerblue;
+      opacity: 1;
+    }
+    .dropdown-content a{
+      color: black;
+      text-align: center;
+      display: block;
+      width: 160px;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .dropdown-content a:hover{
+      background-color: #00cc99;
+    }
+    .parent:hover .dropdown-content{
+      display: block;
+      position: absolute;
+      z-index: 10;
+    }
+    </style>
   </head>
 
   <body>
-    <header>
+    <nav>
+      <ul class = "nav-main">
+        <li class = "parent">
+          <a href="index.html"><span>Welcome</span></a>
+        </li>
+
+        <li class = "parent">
+          <a aria-haspopup="true"><span>About The Team</span></a>
+            <div class = "dropdown-content">
+              <a href="about/history.html">
+                <span>History</span>
+              </a>        
+            
+              <a href="about/mission.html">
+                <span>Mission and Goals</span>
+              </a>
+                    
+              <a href="about/competitions.html">
+                <span>Competitions</span>
+              </a>
+                    
+              <a href="about/FIRST.html">
+                <span>FIRST</span>
+              </a>
+                    
+              <a href="about/FRC.html">
+                <span>FRC</span>
+              </a>
+            </div>
+        </li>
+        <li class = "parent">
+          <a aria-haspopup="true"><span>Sponsors</span></a>
+            <div class = "dropdown-content">    
+
+            <!--Place Notable Sponsors in This List-->
+              <a href="sponsors/">
+                <span></span>
+              </a>
+                    
+              <a href="sponsors/sponsors.html">
+                <span>Other Sponsors</span>
+              </a>
+          </div>
+        </li>    
+      
+      </ul>
+    
+    </nav>
+  <header>
       <div class="inner">
         <h1>Technomancers</h1>
         <h2>FRC Team 1758</h2>
@@ -34,9 +134,9 @@
 <p>From our beginning in 2005, FIRST Team 1758 has enjoyed the support provided by Florence School District One (Florence, SC).  FSD1 has provided funding, facilities, and teacher support along with students from the three District One high schools:</p>
 
 <ul>
-<li>South Florence High School</li>
-<li>West Florence High School</li>
-<li>Wilson High School</li>
+  <li>South Florence High School</li>
+  <li>West Florence High School</li>
+  <li>Wilson High School</li>
 </ul>
 
 <p>Our home is in space provided by Principal Al Bradley of the Florence Career Center, which gives the space, tools, and equipment needed to develop our students' design, build, and organizational skills.  In addition, General/Electric (GE) has also provided funding and volunteer mentors. </p>

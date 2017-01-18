@@ -8,17 +8,17 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
+    
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <title>Technomancers by technomancers</title>
     
-    <!--style for navigation classes-->
-    
+    <!--style for navigation bar-->
+
     <style>
-    .nav-main{
+    ul.nav-main{
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -26,28 +26,28 @@
       font-family: Arial, Helvetica, sans-serif;
       background-color: dodgerblue;
     }
-    .parent{
+    li.parent{
       display: inline-block;
       text-align: center;
       color: teal;
       opacity: 1.0;
     }
-    .parent a{
+    li.parent a{
       color: white;
       display: inline-block;
       text-align: center;
       align-content: center;
       padding-left: 10px;
     }
-    .dropdown-content{
+    div.dropdown-content{
       display: none;
       position: absolute;
       min-width: 160px;
       background-color: dodgerblue;
       opacity: 1;
     }
-    .dropdown-content a{
-      color: black;
+    div.dropdown-content a{
+      color: white;
       text-align: center;
       display: block;
       width: 160px;
@@ -57,10 +57,10 @@
       padding-right: 10px;
       font-family: Arial, Helvetica, sans-serif;
     }
-    .dropdown-content a:hover{
+    div.dropdown-content a:hover{
       background-color: #00cc99;
     }
-    .parent:hover .dropdown-content{
+    li.parent:hover div.dropdown-content{
       display: block;
       position: absolute;
       z-index: 10;
@@ -76,10 +76,10 @@
         </li>
 
         <li class = "parent">
-          <a aria-haspopup="true"><span>About The Team</span></a>
+          <a aria-haspopup="true"><span>About Us</span></a>
             <div class = "dropdown-content">
-              <a href="about/history.html">
-                <span>History</span>
+              <a href="about/team.html">
+                <span>The Team</span>
               </a>        
             
               <a href="about/mission.html">
@@ -113,7 +113,11 @@
               </a>
           </div>
         </li>    
-      
+        <li class = "parent">
+          <a href = "contact.html">
+          <span>Contact Us</span>
+          </a>
+        </li>
       </ul>
     
     </nav>

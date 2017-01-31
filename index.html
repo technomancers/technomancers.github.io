@@ -18,7 +18,7 @@
     <!--styling for page elements-->
     <style>
 
-    h3.disclaimer{
+    h2.disclaimer{
       color: white;
       font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
     }
@@ -69,6 +69,14 @@
       position: absolute;
       z-index: 10;
     }
+    ul.banner{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li.banner-item{
+      display: inline-block;
+    }  
     </style>
   </head>
 
@@ -131,10 +139,16 @@
     </nav>
   <header>
       <div class="inner">
-        <h1>Technomancers</h1>
-        <h2>FRC Team 1758</h2>
-        <h3 class = "disclaimer">The website is currently incomplete and being worked on. Thank you for your patience~</h3>
-        <a href="https://github.com/technomancers" class="button"><small>Follow me on</small> GitHub</a>
+        <ul class = "banner">
+          <li class = "banner-item">
+            <h1>Technomancers</h1>
+            <h2>FRC Team 1758</h2>
+            <h2 class = "disclaimer">The website is currently incomplete and being worked on. Thank you for your patience~</h2>
+            <a href="https://github.com/technomancers" class="button"><small>Follow me on</small> GitHub</a>
+          </li>
+          <li class = "banner-item">
+            <img src = "images/team-logo.png" width = "200px" height = "200px">
+          </li>
       </div>
   </header>
 

@@ -66,6 +66,14 @@
             color: white;
             font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
             }
+            ul.banner{
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+            li.banner-item{
+              display: inline-block;
+            }
     </style>
     </head>
     <body>
@@ -127,9 +135,16 @@
     </nav>
     <header>
         <div class="inner">
-            <h1>Technomancers</h1>
-            <h2>FRC Team 1758</h2>
-            <h2 class = "header">FIRST</h2> 
+          <ul class = "banner">
+            <li class = "banner-item">
+              <h1>Technomancers</h1>
+              <h2>FRC Team 1758</h2>
+              <h2 class = "header">FIRST</h2> 
+            </li>
+            <li class = "banner-item">
+              <img src = "../images/team-logo.png" width = "200px" height = "200px">
+            </li>
+          </ul>
         </div>
     </header>
         <div id = "content-wrapper">

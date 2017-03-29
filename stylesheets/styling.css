@@ -8,7 +8,7 @@ ul.nav-main{
     padding: 0;
     font-size: 20px;
     font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
-    background-color: black;
+    background-color: #35c0cc;
     }
 
 li.parent{
@@ -17,21 +17,24 @@ li.parent{
       color: teal;
       opacity: 1.0;
     }
-    li.parent a{
+
+li.parent a{
       color: white;
       display: inline-block;
       text-align: center;
-      align-content: center;
+      align-content: left;
       padding-left: 10px;
     }
-    div.dropdown-content{
+
+div.dropdown-content{
       display: none;
       position: absolute;
       min-width: 160px;
-      background-color: black;
+      background-color: #cc8d35;
       opacity: 1;
     }
-    div.dropdown-content a{
+
+div.dropdown-content a{
       color: white;
       text-align: center;
       display: block;
@@ -42,23 +45,36 @@ li.parent{
       padding-right: 10px;
       font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
     }
-    div.dropdown-content a:hover{
-      background-color: #00cc99;
+
+div.dropdown-content a:hover{
+      /*background-color: #00cc99;*/
+      opacity: 0.5;
     }
-    li.parent:hover div.dropdown-content{
+
+li.parent:hover div.dropdown-content{
       display: block;
       position: absolute;
       z-index: 10;
     }
-    ul.banner{
+
+ul.banner{
       list-style-type: none;
       margin: 0;
       padding: 0;
     }
-    li.banner-item{
+
+li.banner-item{
       display: inline-block;
     }  
-    body{
+
+body{
       color: black;
       font-size: 17px;
     }
+
+table tr td{
+      border: 0px;
+      border-collapse: collapse;
+      border-color: black;
+    }
+    

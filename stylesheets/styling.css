@@ -1,82 +1,92 @@
 .header{
     color: black;
-    }
+}
 
 ul.nav-main{
     list-style-type: none;
     margin: 0 auto;
-    padding-left: 0;
+    padding-left: 5px;
     font-size: 20px;
-    font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
+    font-family: 'Chathura';
     background-color: #022648;
     position: relative;
-    width: 940px;
-    }
+    width: 600px;
+    height: 0px;
+    float: right;
+}
 
 li.parent{
-      display: inline-block;
-      text-align: center;
-      color: teal;
-      opacity: 1.0;
-    }
+    display: inline-block;
+    text-align: center;
+    color: teal;
+    opacity: 1.0;
+}
 
 li.parent a{
-      color: white;
-      display: inline-block;
-      text-align: center;
-      align-content: left;
-      padding-left: 10px;
-    }
+    color: white;
+    display: inline-block;
+    text-align: center;
+    align-content: left;
+    padding-left: 10px;
+}
 
 div.dropdown-content{
-      display: none;
-      position: absolute;
-      min-width: 160px;
-      background-color: #cc8d35;
-      opacity: 1;
-    }
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #cc8d35;
+    opacity: 1;
+}
 
 div.dropdown-content a{
-      color: white;
-      text-align: center;
-      display: block;
-      width: 160px;
-      text-decoration: none;
-      padding-top: 10px;
-      padding-left: 10px;
-      padding-right: 10px;
-      font-family: 'Palatino Linotype', 'Book Antiqua3', 'Palatino6', serif;
-    }
+    color: white;
+    text-align: center;
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Chathura';
+}
 
 div.dropdown-content a:hover{
-      /*background-color: #00cc99;*/
-      opacity: 0.5;
-    }
+    /*background-color: #00cc99;*/
+    opacity: 0.5;
+}
 
 li.parent:hover div.dropdown-content{
-      display: block;
-      position: absolute;
-      z-index: 10;
-    }
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
 
 ul.banner{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 li.banner-item{
-      display: inline-block;
-    }  
+    display: inline-block;
+}  
 
 body{
-      color: black;
-      font-size: 17px;
-    }
+    color: black;
+    font-size: 17px;
+}
+
+aside#above-side{
+    float: right;
+    width: 200px;
+    padding-left: 175px;
+    height: 120px;
+    background: transparent url(../images/header-bg.jpg) 0 0 repeat-x;
+}
 
 table tr td{
-      border: 0px;
-      border-collapse: collapse;
-      border-color: black;
-    }
+    border: 0px;
+    border-collapse: collapse;
+    border-color: black;
+}
     

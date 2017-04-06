@@ -6,12 +6,11 @@ ul.nav-main{
     list-style-type: none;
     margin: 0 auto;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Chathura';
-    background-color: #022648;
+    background-color: #1791b0;
     position: relative;
-    width: 600px;
-    height: 0px;
+    height: 42px;
     float: right;
 }
 
@@ -61,27 +60,9 @@ li.parent:hover div.dropdown-content{
     z-index: 10;
 }
 
-ul.banner{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li.banner-item{
-    display: inline-block;
-}  
-
 body{
     color: black;
     font-size: 17px;
-}
-
-aside#above-side{
-    float: right;
-    width: 200px;
-    padding-left: 175px;
-    height: 120px;
-    background: transparent url(../images/header-bg.jpg) 0 0 repeat-x;
 }
 
 table tr td{

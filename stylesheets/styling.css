@@ -2,16 +2,84 @@
     color: black;
 }
 
+ul.nav{
+    list-style-type: none;
+    margin-right: 100px;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: 'Chathura';
+    background-color: #1791b0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    float: left;
+}
+
 ul.nav-main{
     list-style-type: none;
-    margin: 0 auto;
+    margin-left: 150px;
     padding-left: 5px;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #1791b0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 42px;
     float: right;
+}
+
+aside#sidebar p{
+    text-align: center;
+}
+
+aside a.snapchat{
+    display: block;
+    width: 290px;
+    height: 110px;
+    align-content: center;
+    padding-left: 115px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: 'Chathura';
+    font-size: 28px;
+    color: #00b3b3;
+    background: transparent url(../images/snapchat.png) 0 0 no-repeat;
+}
+
+aside a.twitter{
+    display: block;
+    width: 300px;
+    height: 110px;
+    padding-top: 35px;
+    padding-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Chathura';
+    color: #00b3b3;
+    background: transparent url(../images/twitter.png) 0 0 no-repeat;
+}
+
+aside a.instagram{
+    display: block;
+    width: 290px;
+    height: 110px;
+    padding-left: 110px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Chathura';
+    font-size: 30px;
+    color: #00b3b3;
+    background: transparent url(../images/instagram.png) 0 0 no-repeat;
+}
+
+#active{
+    color: #94dcf2;
 }
 
 li.parent{

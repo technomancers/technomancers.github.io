@@ -487,12 +487,12 @@ header .inner {
   padding-top: 10px;
   margin-left: 100px;
   border-top: solid 1px #fff;
-  width: 1000px; 
+  width: 92%; 
 }
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 65%;
   margin-right: 0px;
 }
 
@@ -502,7 +502,7 @@ header .inner {
 
 aside#sidebar {
   float: right;
-  width: 300px;
+  width: 20%;
   min-height: 504px;
   font-size: 12px;
   line-height: 1.3;
@@ -550,7 +550,7 @@ aside a.button {
   width: 210px;
   padding-top: 20px;
   padding-left: 80px;
-  margin-left: 45px;
+  margin-left: 5%;
   margin-bottom: 20px;
   font-size: 30px;
   color: #00b3b3;
@@ -643,10 +643,9 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: 'Chathura';
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 500;
   color: #474747;
-  text-indent: 4px;
 }
 #main-content h2:before {
   padding-right: 0.3em;
@@ -784,7 +783,7 @@ footer a:hover {
 
 .clearfix {
   display: block;
-  width: 1200px;
+  width: 90%;
 }
 
 /* #Media Queries

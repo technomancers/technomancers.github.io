@@ -4,8 +4,7 @@
 
 ul.nav{
     list-style-type: none;
-    margin-right: 100px;
-    padding-left: 100px;
+    padding-left: 6%;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #1791b0; 
@@ -19,8 +18,7 @@ ul.nav{
 
 ul.nav-main{
     list-style-type: none;
-    margin-left: 150px;
-    padding-left: 5px;
+    padding-left: 15%;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #1791b0;

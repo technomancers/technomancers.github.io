@@ -629,7 +629,7 @@ form {
   font-family: 'Chathura';
   font-size: 30px;
   font-weight: normal;
-  color: #474747;
+  color: black;
   text-indent: 6px;
   letter-spacing: -1px;
 }
@@ -645,7 +645,7 @@ form {
   font-family: 'Chathura';
   font-size: 40px;
   font-weight: 500;
-  color: #474747;
+  color: black;
 }
 #main-content h2:before {
   padding-right: 0.3em;
@@ -659,7 +659,7 @@ form {
   font-family: 'Chathura';
   font-size: 25px;
   font-weight: bold;
-  color: #474747;
+  color: black;
   text-indent: 3px;
 }
 
@@ -674,7 +674,7 @@ form {
   font-family: 'Chathura';
   font-size: 15px;
   font-weight: bold;
-  color: #474747;
+  color: black;
   text-indent: 3px;
 }
 
@@ -688,7 +688,7 @@ h4:before {
   margin-bottom: 8px;
   font-family: 'Chathura';
   font-size: 14px;
-  color: #474747;
+  color: black;
   text-indent: 3px;
 }
 h5:before {
@@ -701,7 +701,7 @@ h5:before {
   margin-bottom: 8px;
   font-family: 'Chathura';
   font-size: .8em;
-  color: #474747;
+  color: black;
   text-indent: 3px;
 }
 h6:before {

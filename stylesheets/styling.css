@@ -1,3 +1,8 @@
+ul.nav li h1 a{
+    color: white;
+    text-decoration: none;
+}
+
 ul.nav{
     list-style-type: none;
     padding-left: 6%;
@@ -89,12 +94,13 @@ li.parent a{
     text-align: center;
     align-content: left;
     padding-left: 10px;
+    text-decoration: none;
 }
 
 div.dropdown-content{
     display: none;
     position: absolute;
-    min-width: 160px;
+    width: 160px;
     background-color: #cc8d35;
     opacity: 1;
 }
@@ -112,7 +118,6 @@ div.dropdown-content a{
 }
 
 div.dropdown-content a:hover{
-    /*background-color: #00cc99;*/
     opacity: 0.5;
 }
 
@@ -126,12 +131,3 @@ body{
     color: black;
     font-size: 17px;
 }
-
-table tr td{
-    border: 0px;
-    border-collapse: collapse;
-    border-color: black;
-    font-family: 'Chathura';
-    font-size: 30px;
-}
-    

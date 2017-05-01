@@ -47,6 +47,7 @@ aside a.snapchat{
     font-size: 28px;
     color: #00b3b3;
     background: transparent url(../images/snapchat.png) 0 0 no-repeat;
+    text-decoration: none;
 }
 
 aside a.twitter{
@@ -61,6 +62,7 @@ aside a.twitter{
     font-family: 'Chathura';
     color: #00b3b3;
     background: transparent url(../images/twitter.png) 0 0 no-repeat;
+    text-decoration: none;
 }
 
 aside a.instagram{
@@ -75,6 +77,7 @@ aside a.instagram{
     font-size: 30px;
     color: #00b3b3;
     background: transparent url(../images/instagram.png) 0 0 no-repeat;
+    text-decoration: none;
 }
 
 #active{

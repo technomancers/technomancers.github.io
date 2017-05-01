@@ -1,0 +1,136 @@
+ul.nav li h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav{
+    list-style-type: none;
+    padding-left: 6%;
+    font-size: 30px;
+    font-family: 'Chathura';
+    background-color: #1791b0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    float: left;
+}
+
+ul.nav-main{
+    list-style-type: none;
+    padding-left: 15%;
+    font-size: 30px;
+    font-family: 'Chathura';
+    background-color: #1791b0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 42px;
+    float: right;
+}
+
+aside#sidebar p{
+    text-align: center;
+}
+
+aside a.snapchat{
+    display: block;
+    width: 290px;
+    height: 110px;
+    align-content: center;
+    padding-left: 115px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: 'Chathura';
+    font-size: 28px;
+    color: #00b3b3;
+    background: transparent url(../images/snapchat.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+
+aside a.twitter{
+    display: block;
+    width: 300px;
+    height: 110px;
+    padding-top: 35px;
+    padding-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Chathura';
+    color: #00b3b3;
+    background: transparent url(../images/twitter.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+
+aside a.instagram{
+    display: block;
+    width: 290px;
+    height: 110px;
+    padding-left: 110px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Chathura';
+    font-size: 30px;
+    color: #00b3b3;
+    background: transparent url(../images/instagram.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+
+#active{
+    color: #94dcf2;
+}
+
+li.parent{
+    display: inline-block;
+    text-align: center;
+    color: teal;
+    opacity: 1.0;
+}
+
+li.parent a{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    align-content: left;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+div.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #cc8d35;
+    opacity: 1;
+}
+
+div.dropdown-content a{
+    color: white;
+    text-align: center;
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Chathura';
+}
+
+div.dropdown-content a:hover{
+    opacity: 0.5;
+}
+
+li.parent:hover div.dropdown-content{
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+body{
+    color: black;
+    font-size: 17px;
+}

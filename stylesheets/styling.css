@@ -8,7 +8,7 @@ ul.nav{
     padding-left: 6%;
     font-size: 30px;
     font-family: 'Chathura';
-    background-color: #1791b0; 
+    background-color: #00b3b3; 
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@ ul.nav-main{
     padding-left: 15%;
     font-size: 30px;
     font-family: 'Chathura';
-    background-color: #1791b0;
+    background-color: #00b3b3;
     position: fixed;
     top: 0;
     width: 100%;

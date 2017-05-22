@@ -20,6 +20,7 @@ ul.nav{
 ul.nav-main{
     list-style-type: none;
     padding-left: 15%;
+    padding-right: 0;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #00b3b3;

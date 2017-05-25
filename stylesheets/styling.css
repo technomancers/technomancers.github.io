@@ -1,3 +1,7 @@
+.content{
+    
+}
+
 ul.nav li h1 a{
     color: white;
     text-decoration: none;
@@ -20,6 +24,7 @@ ul.nav{
 ul.nav-main{
     list-style-type: none;
     padding-left: 15%;
+    padding-right: 0;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #00b3b3;
@@ -28,56 +33,6 @@ ul.nav-main{
     width: 100%;
     height: 42px;
     float: right;
-}
-
-aside#sidebar p{
-    text-align: center;
-}
-
-aside a.snapchat{
-    display: block;
-    width: 290px;
-    height: 110px;
-    align-content: center;
-    padding-left: 115px;
-    padding-top: 35px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    font-family: 'Chathura';
-    font-size: 28px;
-    color: #00b3b3;
-    background: transparent url(../images/snapchat.png) 0 0 no-repeat;
-    text-decoration: none;
-}
-
-aside a.twitter{
-    display: block;
-    width: 300px;
-    height: 110px;
-    padding-top: 35px;
-    padding-left: 110px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-family: 'Chathura';
-    color: #00b3b3;
-    background: transparent url(../images/twitter.png) 0 0 no-repeat;
-    text-decoration: none;
-}
-
-aside a.instagram{
-    display: block;
-    width: 290px;
-    height: 110px;
-    padding-left: 110px;
-    padding-top: 35px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-family: 'Chathura';
-    font-size: 30px;
-    color: #00b3b3;
-    background: transparent url(../images/instagram.png) 0 0 no-repeat;
-    text-decoration: none;
 }
 
 #active{

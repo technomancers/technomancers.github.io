@@ -1,7 +1,6 @@
-.content{
-    
+h2{
+    text-align: center;
 }
-
 ul.nav li h1 a{
     color: white;
     text-decoration: none;
@@ -19,12 +18,12 @@ ul.nav{
     width: 100%;
     height: 42px;
     float: left;
+    z-index: 100000;
 }
 
 ul.nav-main{
     list-style-type: none;
-    padding-left: 15%;
-    padding-right: 0;
+    padding-left: 0;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #00b3b3;
@@ -33,6 +32,7 @@ ul.nav-main{
     width: 100%;
     height: 42px;
     float: right;
+    z-index: 100000;
 }
 
 #active{

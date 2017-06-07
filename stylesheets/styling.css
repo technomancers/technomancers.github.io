@@ -37,6 +37,7 @@ ul.footnav li a{
     margin-bottom: 0;
     background-color: #00b3b3;
     height: 100%;
+    bottom: 0;
 }
 
 ul.nav li h1 a{

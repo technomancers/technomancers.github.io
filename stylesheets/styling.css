@@ -1,3 +1,56 @@
+.description{
+    text-align: center;
+}
+
+.image{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.contact{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+ul.footnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00b3b3;
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+ul.footnav li{
+    display: inline-block;
+    height: 35.2px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+}
+
+ul.footnav li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#footer{
+    margin-top: 5px;
+    margin-bottom: 0;
+    background-color: #00b3b3;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
 ul.nav li h1 a{
     color: white;
     text-decoration: none;
@@ -5,7 +58,7 @@ ul.nav li h1 a{
 
 ul.nav{
     list-style-type: none;
-    padding-left: 6%;
+    padding-left: 2%;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #00b3b3; 
@@ -15,11 +68,12 @@ ul.nav{
     width: 100%;
     height: 42px;
     float: left;
+    z-index: 100000;
 }
 
 ul.nav-main{
     list-style-type: none;
-    padding-left: 15%;
+    padding-left: 0;
     font-size: 30px;
     font-family: 'Chathura';
     background-color: #00b3b3;
@@ -28,56 +82,7 @@ ul.nav-main{
     width: 100%;
     height: 42px;
     float: right;
-}
-
-aside#sidebar p{
-    text-align: center;
-}
-
-aside a.snapchat{
-    display: block;
-    width: 290px;
-    height: 110px;
-    align-content: center;
-    padding-left: 115px;
-    padding-top: 35px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    font-family: 'Chathura';
-    font-size: 28px;
-    color: #00b3b3;
-    background: transparent url(../images/snapchat.png) 0 0 no-repeat;
-    text-decoration: none;
-}
-
-aside a.twitter{
-    display: block;
-    width: 300px;
-    height: 110px;
-    padding-top: 35px;
-    padding-left: 110px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-family: 'Chathura';
-    color: #00b3b3;
-    background: transparent url(../images/twitter.png) 0 0 no-repeat;
-    text-decoration: none;
-}
-
-aside a.instagram{
-    display: block;
-    width: 290px;
-    height: 110px;
-    padding-left: 110px;
-    padding-top: 35px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-family: 'Chathura';
-    font-size: 30px;
-    color: #00b3b3;
-    background: transparent url(../images/instagram.png) 0 0 no-repeat;
-    text-decoration: none;
+    z-index: 100000;
 }
 
 #active{

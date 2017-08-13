@@ -46,9 +46,9 @@ ul.footnav li a{
     margin-top: 5px;
     margin-bottom: 0;
     background-color: #00b3b3;
-    height: 100%;
     bottom: 0;
     left: 0;
+    width: 100%;
 }
 
 ul.nav li h1 a{

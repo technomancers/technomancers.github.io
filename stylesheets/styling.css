@@ -43,8 +43,6 @@ ul.footnav li a{
 }
 
 #footer{
-    margin-top: 5px;
-    margin-bottom: 0;
     background-color: #00b3b3;
     bottom: 0;
     left: 0;
@@ -108,7 +106,7 @@ li.parent a{
 div.dropdown-content{
     display: none;
     position: absolute;
-    width: 160px;
+    width: 120px;
     background-color: #cc8d35;
     opacity: 1;
 }
@@ -117,11 +115,10 @@ div.dropdown-content a{
     color: white;
     text-align: center;
     display: block;
-    width: 160px;
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px; 
     text-decoration: none;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     font-family: 'Chathura';
 }
 

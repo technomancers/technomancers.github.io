@@ -486,7 +486,7 @@ header .inner {
 #content-wrapper {
   padding-top: 10px;
   margin-left: 100px;
-  border-top: solid 1px #fff;
+  min-height: calc(100vh - 85);
   width: 92%; 
 }
 
@@ -716,8 +716,9 @@ h6:before {
 
 p {
   margin-bottom: 20px;
-  font-size: 30px;
-  font-family: 'Chathura';
+  font-size: 20px;
+  font-family: 'Raleway';
+  line-height: 1.8;
 }
 
 a {

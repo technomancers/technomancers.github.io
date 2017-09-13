@@ -1,3 +1,9 @@
+.carousel-inner h3{
+    color: white !important;
+}
+.carousel-inner{
+    margin: auto;
+}
 .description{
     text-align: center;
 }

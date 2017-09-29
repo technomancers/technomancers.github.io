@@ -607,7 +607,9 @@ hr {
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
+  border: 0px;
+  font-size: 20px;
+  font-family: 'Raleway'; 
 }
 
 th {
@@ -617,7 +619,7 @@ th {
 td {
   font-weight: 300;
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 0px;
 }
 
 form {

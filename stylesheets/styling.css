@@ -1,11 +1,20 @@
 .carousel-inner h3{
     color: white !important;
 }
+
 .carousel-inner{
     margin: auto;
 }
+
 .description{
     text-align: center;
+}
+
+.sponsor{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway';
+    line-height: 7;
 }
 
 .image{
